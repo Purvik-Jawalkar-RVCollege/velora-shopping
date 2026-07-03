@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A premium responsive ecommerce storefront concept for fashion, home, beauty, and technology shopping."
+    />
+    <title>Velora | Curated Shopping Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-scrolled="false">
+      <a class="brand" href="#top" aria-label="Velora home">
+        <span class="brand-mark">V</span>
+        <span>Velora</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#new">New</a>
+        <a href="#collections">Collections</a>
+        <a href="#deals">Deals</a>
+        <a href="#journal">Journal</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Search">
+          <span aria-hidden="true">⌕</span>
+        </button>
+        <button class="icon-button" type="button" aria-label="Wishlist">
+          <span aria-hidden="true">♡</span>
+        </button>
+        <button class="cart-button" type="button" aria-label="Cart with two items">
+          <span aria-hidden="true">Bag</span>
+          <span class="cart-count">2</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/hero-shopping.png" alt="Curated premium shopping products on studio plinths" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">New season edit</p>
+          <h1 id="hero-title">Shop the pieces that make everyday feel designed.</h1>
+          <p class="hero-copy">
+            Curated fashion, beauty, home, and tech essentials with fast checkout, smart discovery, and a quietly luxurious feel.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#new">Shop arrivals</a>
+            <a class="secondary-button" href="#collections">Explore edits</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Shopping benefits">
+        <div>
+          <strong>2 day</strong>
+          <span>express delivery</span>
+        </div>
+        <div>
+          <strong>4.9/5</strong>
+          <span>customer rating</span>
+        </div>
+        <div>
+          <strong>30 days</strong>
+          <span>easy returns</span>
+        </div>
+        <div>
+          <strong>Secure</strong>
+          <span>one tap checkout</span>
+        </div>
+      </section>
+
+      <section class="section" id="collections" aria-labelledby="collections-title">
+        <div class="section-heading">
+          <p class="eyebrow">Curated departments</p>
+          <h2 id="collections-title">A store that feels effortless to scan.</h2>
+        </div>
+        <div class="category-grid">
+          <a class="category-card category-fashion" href="#new">
+            <span>Fashion</span>
+            <strong>Tailored layers, clean staples, weekend pieces</strong>
+          </a>
+          <a class="category-card category-beauty" href="#new">
+            <span>Beauty</span>
+            <strong>Glow systems, fragrance, travel-friendly care</strong>
+          </a>
+          <a class="category-card category-home" href="#new">
+            <span>Home</span>
+            <strong>Soft lighting, tableware, desk upgrades</strong>
+          </a>
+          <a class="category-card category-tech" href="#new">
+            <span>Tech</span>
+            <strong>Minimal devices, audio, wearable essentials</strong>
+          </a>
+        </div>
+      </section>
+
+      <section class="section product-section" id="new" aria-labelledby="new-title">
+        <div class="section-heading inline-heading">
+          <div>
+            <p class="eyebrow">Fresh arrivals</p>
+            <h2 id="new-title">Made for the cart.</h2>
+          </div>
+          <div class="filter-pills" aria-label="Product filters">
+            <button class="pill active" type="button">All</button>
+            <button class="pill" type="button">Style</button>
+            <button class="pill" type="button">Home</button>
+            <button class="pill" type="button">Tech</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-media product-coat">
+              <span class="badge">New</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Cloudline Trench</h3>
+                <p>Weather-ready cotton blend</p>
+              </div>
+              <strong>$168</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media product-watch">
+              <span class="badge">Hot</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Aura Smart Band</h3>
+                <p>Health tracking, polished steel</p>
+              </div>
+              <strong>$129</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media product-bag">
+              <span class="badge">Low stock</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Studio Carryall</h3>
+                <p>Full-grain vegan leather</p>
+              </div>
+              <strong>$94</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-media product-lamp">
+              <span class="badge">Editor pick</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Dawn Table Lamp</h3>
+                <p>Dimmable glass glow</p>
+              </div>
+              <strong>$76</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature-band" id="deals" aria-labelledby="deals-title">
+        <div class="feature-copy">
+          <p class="eyebrow">Weekend drop</p>
+          <h2 id="deals-title">Build a complete look and save 20%.</h2>
+          <p>
+            Bundle wardrobe staples, everyday tech, and small home upgrades into one beautifully guided checkout flow.
+          </p>
+          <a class="primary-button dark" href="#new">Start a bundle</a>
+        </div>
+        <div class="bundle-panel" aria-label="Bundle preview">
+          <div class="bundle-item">
+            <span class="mini-image mini-sneaker"></span>
+            <div>
+              <strong>Motion sneaker</strong>
+              <small>$88</small>
+            </div>
+          </div>
+          <div class="bundle-item">
+            <span class="mini-image mini-cream"></span>
+            <div>
+              <strong>Reset serum</strong>
+              <small>$42</small>
+            </div>
+          </div>
+          <div class="bundle-item">
+            <span class="mini-image mini-speaker"></span>
+            <div>
+              <strong>Pocket speaker</strong>
+              <small>$64</small>
+            </div>
+          </div>
+          <div class="bundle-total">
+            <span>Bundle total</span>
+            <strong>$155</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journal-section" id="journal" aria-labelledby="journal-title">
+        <div class="section-heading">
+          <p class="eyebrow">Shopping journal</p>
+          <h2 id="journal-title">Editorial moments that sell the lifestyle.</h2>
+        </div>
+        <div class="journal-grid">
+          <article class="journal-card">
+            <div class="journal-image journal-one"></div>
+            <div>
+              <span>Guide</span>
+              <h3>How to style one clean jacket five ways</h3>
+            </div>
+          </article>
+          <article class="journal-card">
+            <div class="journal-image journal-two"></div>
+            <div>
+              <span>Home edit</span>
+              <h3>Small apartment pieces that add instant calm</h3>
+            </div>
+          </article>
+          <article class="journal-card">
+            <div class="journal-image journal-three"></div>
+            <div>
+              <span>Beauty</span>
+              <h3>The polished morning kit under ten minutes</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark">V</span>
+          <span>Velora</span>
+        </a>
+        <p>Premium ecommerce UI concept built to show visual hierarchy, interaction states, responsive layout, and conversion thinking.</p>
+      </div>
+      <form class="newsletter" aria-label="Newsletter signup">
+        <label for="email">Get the private sale list</label>
+        <div>
+          <input id="email" type="email" placeholder="Email address" />
+          <button type="submit">Join</button>
+        </div>
+      </form>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
